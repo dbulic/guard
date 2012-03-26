@@ -25,8 +25,8 @@ module Guard
       # Default options for libnotify gem
       DEFAULTS = {
         :transient => false,
-        :append    => true,
-        :timeout   => 3
+        :append    => false,
+        :timeout   => 1
       }
 
       # Test if the notification library is available.
