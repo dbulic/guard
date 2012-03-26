@@ -83,7 +83,7 @@ module Guard
       def libnotify_urgency(type)
         case type
         when 'failed'
-          :critical
+          :normal
         when 'pending'
           :normal
         else
